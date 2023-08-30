@@ -29,9 +29,10 @@ h3{
 p{
     color: brown;
 }
-ul{
-    color: maroon;
-}
 main{
     text-align: center;
+}
+ul{
+    text-align: left;
+    color: maroon;
 }
