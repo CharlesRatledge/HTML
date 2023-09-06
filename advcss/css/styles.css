@@ -1,0 +1,104 @@
+body{
+    background-color: thistle;
+}
+img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+#container{
+    width: 80%;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    border-radius: 10px 10px 10px 10px;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 40px;
+}
+header h1{
+    color:chocolate;
+    text-shadow: 2px 2px 2px burlywood;
+}
+nav{
+    background-color: bisque;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    background-color: whitesmoke;
+    display:block;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    line-height: 40px;
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav li a:hover{
+    background-color: blue;
+}
+main{
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
+main img{
+    width:80%;
+}
+footer{
+    background-color: darkmagenta;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+.style{
+    color: blue;
+}
+.shadow{
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+#mainsection{
+    display: flex;
+}
+section, aside {
+    background-color: beige;
+    padding: 10%;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+section{
+    width: 50%;
+}
+aside{
+    width: 50%;
+}
+
+table{
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    background-color: chartreuse;
+}
+tr, td{
+    text-align: center;
+    border: 2px solid yellow;
+    width: 200px;
+    height:30px;
+}
+a{
+    color:blueviolet;
+}
+a:hover{
+    color: red;
+}
