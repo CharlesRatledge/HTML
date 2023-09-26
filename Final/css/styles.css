@@ -14,7 +14,11 @@ header{
     border-radius: 10px;
     font-family: 'Croissant One', cursive;
 }
-
+iframe{
+    width: 250px;
+    height: 250px;
+  
+}
 header h1 {
     text-align: center;
     color: black;
@@ -72,6 +76,10 @@ body{
     background-color: blueviolet;
     color: chocolate;
 }
+iframe{
+    width:500px;
+    height: 400px;
+}
 nav li{
     width: 175px;
 }
@@ -94,6 +102,10 @@ main img{
     body{
         background-color: coral;
         color: darkgray;
+    }
+    iframe{
+        width: 560px;
+         height: 400px;
     }
     #container{
         width: 65%;
